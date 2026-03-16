@@ -5,6 +5,7 @@ with open("README.md", mode="r", encoding="utf-8") as fh:
 
 REQUIRED_PACKAGES = [
     'flair',
+    'torch==1.7.1',
 ]
 
 setuptools.setup(
