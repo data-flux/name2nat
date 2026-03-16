@@ -5,7 +5,8 @@ with open("README.md", mode="r", encoding="utf-8") as fh:
 
 REQUIRED_PACKAGES = [
     'flair',
-    'torch==1.7.1',
+    'torch==1.10.2',
+    'numpy<2.0.0',
 ]
 
 setuptools.setup(
